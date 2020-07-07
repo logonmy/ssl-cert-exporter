@@ -1,0 +1,8 @@
+prometheus_client==0.7.1
+requests==2.22.0
+toml==0.10.0
+flask==1.1.1
+Werkzeug==0.16
+tomlkit==0.6.0
+jmespath==0.9.4
+

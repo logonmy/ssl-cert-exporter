@@ -1,0 +1,37 @@
+[general]
+timeout     = 600
+debug       = false
+port        = 8800
+log_dir     = 'log'
+log_file    = 'ssl-cert-monitor.log'
+
+##########################
+#list of host to monitor
+
+[[domains]]
+    host = 'www.8btc.com'
+    port = 443
+
+[[domains]]
+    host = 'www.chainnode.com'
+    port = 443
+
+[[domains]]
+    host = 'www.qkl123.com'
+    port = 443
+
+[[domains]]
+    host = 'www.baidu.com'
+    port = 443
+
+[[domains]]
+    host = 'www.jd.com'
+    port = 443
+
+[[domains]]
+    host = 'www.360.com'
+    port = 443
+
+[[domains]]
+    host = 'www.taobao.com'
+    port = 443
