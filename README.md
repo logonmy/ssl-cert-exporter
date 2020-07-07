@@ -110,6 +110,8 @@ ssl_cert_expiry_seconds{host="www.taobao.com",port="443"} 9.501261e+06
 
 ### Dashboard 大盘一览：
 
+绘图：将文件目录grafana/dashboard.json 文件导入到grafana即可。注意datasource 是Prometheus。
+
 ![dash](./grafana/snapshot/dash.png)
 
 
